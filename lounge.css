@@ -12,14 +12,12 @@ h1 {
 h2 {
       font-size: 130%;
 }
+
 #guarantee {
-    line-height: 1.9em;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #444444;
-    border-color: white;
+    border-color: black;
     border-width: 1px;
     border-style: dashed;
+    border-color: white;
     background-color: #a7cece;
     padding: 25px;
     padding-left: 80px;
@@ -29,6 +27,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: top left;
 }
+
 #elixirs {
       border-width: thin;
       border-style: solid;
@@ -45,25 +44,23 @@ h2 {
 
       background-image: url(images/cocktail.gif);
       background-repeat: repeat-x;
+
+      line-height: 1;
 }
+
 #elixirs h2 {
     color: black;
 }
 #elixirs h3 {
     color: #d12c47;
 }
-#elixirs {
-    line-height: lem;
-}
-#elixirs {
-    line-height: 1;
-}
 .cd {
-    font-style: italic;
+  font-style: italic;
 }
 .artist {
     font-weight: bold;
 }
+
 #elixirs a:link {
     color: #007e7e
 }
@@ -73,4 +70,8 @@ h2 {
 #elixirs a:hover {
     background: #f88296;
     color: #0d5353;
+}
+#elixirs {
+    width: 200px;
+    float: right;
 }
